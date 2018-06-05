@@ -1,15 +1,15 @@
 # Neptun ProW+ - MQTT bridge
 
-This script allows you to read data and control state of water leak detection system "[Neptun ProW+](https://neptun-mcs.ru/catalog/filter/c1/p4/v2/)".
+This script allows you to read data and control state of the "[Neptun ProW+](https://neptun-mcs.ru/catalog/filter/c1/p4/v2/)" water leak detection system.
 
-The system controls one or more wire or wireless sensors and closes a valve when a water leak is detected.
+The system controls automatically and independently one or more wire or wireless sensors and closes a valve when a water leak is detected.
 
-You can:
+With this scritp/library you can:
 
-* Control one or more devices
-* Get state of the main module and all sensors
-* Open or close a valve
-* Enable or disable the special "Cleaning" mode
+* Control one or more devices.
+* Get state of the main module and all sensors.
+* Open or close a valve.
+* Enable or disable the special "Cleaning" mode.
 
 ## How to configure
 
@@ -34,7 +34,7 @@ The "neptun2mqtt.ini" file in the program folder contains all settings:
 
 ### Devices
 
-**discovery** - 1: enable auto-discovery of device in your local network (if the IP address of the device is dynamic)
+**discovery** - 1: enable auto-discovery of devices in your local network (if an IP address of a device is dynamic)
 
 **devices** - the "devices" parameter allows you to specify one or more devices with a static IP address and its friendly name.
 
